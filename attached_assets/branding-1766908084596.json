@@ -1,0 +1,113 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "sans-serif",
+      "count": 71
+    },
+    {
+      "family": "Inter",
+      "count": 69
+    },
+    {
+      "family": "ui-sans-serif",
+      "count": 69
+    },
+    {
+      "family": "system-ui",
+      "count": 69
+    },
+    {
+      "family": "Space Grotesk",
+      "count": 21
+    }
+  ],
+  "colors": {
+    "primary": "#313149",
+    "accent": "#1F1B32",
+    "background": "#F9F9FB",
+    "textPrimary": "#1F1B32",
+    "link": "#1F1B32"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Inter",
+      "heading": "Space Grotesk"
+    },
+    "fontStacks": {
+      "body": [
+        "Inter",
+        "ui-sans-serif",
+        "system-ui",
+        "sans-serif"
+      ],
+      "heading": [
+        "Space Grotesk",
+        "Inter",
+        "ui-sans-serif",
+        "system-ui",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Inter",
+        "ui-sans-serif",
+        "system-ui",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "96px",
+      "h2": "60px",
+      "body": "20px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "2px"
+  },
+  "components": {
+    "input": {
+      "background": "#F9F9FB",
+      "textColor": "#1F1B32",
+      "borderColor": "#DCDCE5",
+      "borderRadius": "10px",
+      "borderRadiusCorners": {
+        "topLeft": "10px",
+        "topRight": "10px",
+        "bottomRight": "10px",
+        "bottomLeft": "10px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.svg",
+    "favicon": null,
+    "ogImage": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/796ce7ec-9bb3-49fc-b988-62adac06a499/id-preview-f515dcc4--9d21aae8-b641-4fab-a83c-e1252f11fd3f.lovable.app-1766816349338.png"
+  },
+  "__framework_hints": [],
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Logo rejected: Red flags detected (small square icon). Heuristic fallback: Good indicators: in header, header location, visible, highest logo on page, too small (likely icon, penalty), small square icon (likely UI icon, heavy penalty), SVG format. Score: 55 (ahead by 55 points)",
+    "confidence": 0.65,
+    "rejected": true
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": -1,
+      "text": "N/A",
+      "reasoning": "LLM failed"
+    },
+    "secondary": {
+      "index": -1,
+      "text": "N/A",
+      "reasoning": "LLM failed"
+    },
+    "confidence": 0
+  },
+  "confidence": {
+    "buttons": 0,
+    "colors": 0,
+    "overall": 0
+  }
+}
